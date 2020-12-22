@@ -203,7 +203,7 @@ path "kv/metadata" {
 
 
 ##### configure the policy
-
+```
 vault login s.LwyIsILu0qR0I5UFtrJlW3ev
 
 vault policy write users ./user_policy.hcl
@@ -211,4 +211,4 @@ vault policy write users ./user_policy.hcl
 vault policy write admins ./admins_policy.hcl
 
 vault write auth/userpass/users/mick/policies policies=users,admins
-
+```
