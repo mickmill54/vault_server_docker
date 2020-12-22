@@ -1,7 +1,7 @@
 # my_vault_server
 ### example vault docker startup 
 
-*Note*: Add the keys and tokens are use examples and are no longer in use.
+*Note*: All the keys and tokens are use examples and are no longer in use.
 
 #### Reference: 
 https://blog.ruanbekker.com/blog/2019/05/06/setup-hashicorp-vault-server-on-docker-and-cli-guide/
