@@ -1,5 +1,5 @@
 # my_vault_server
-# example vault docker startup 
+### example vault docker startup 
 
 
 #### Reference: 
@@ -7,6 +7,7 @@ https://blog.ruanbekker.com/blog/2019/05/06/setup-hashicorp-vault-server-on-dock
 
 
 ##### Get the token and keys
+```
 vault operator init -key-shares=6 -key-threshold=3
 
 Initial root token
@@ -23,6 +24,7 @@ Key 5:
 eproM5EpmLLZaMLSJaEkPZpTRIBSzJjvFJnM21YVV9Z6
 Key 6:
 +nCDDKkwj6vJ/J29j01UbMoqamc7xiM6Zfe/8tyJbyIk
+```
 
 ##### unseal vault
 ```
@@ -200,8 +202,12 @@ path "kv/metadata" {
 
 
 ##### configure the policy
+
 vault login s.LwyIsILu0qR0I5UFtrJlW3ev
+
 vault policy write users ./user_policy.hcl
+
 vault policy write admins ./admins_policy.hcl
+
 vault write auth/userpass/users/mick/policies policies=users,admins
 
