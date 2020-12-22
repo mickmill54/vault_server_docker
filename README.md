@@ -1,5 +1,5 @@
 # my_vault_server
-### example vault docker startup 
+### example vault docker getting started 
 
 *Note*: All the keys and tokens are examples and are no longer in use.
 
