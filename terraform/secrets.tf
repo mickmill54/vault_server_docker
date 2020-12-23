@@ -13,8 +13,8 @@ resource "vault_mount" "kv" {
 # Create key value pair
 #----------------------------------------------------------
 
-resource "vault_generic_secret" "cnn00-keys" {
-  path = "kv/cnn00/foo"
+resource "vault_generic_secret" "cnn-foo" {
+  path = "kv/cnn/foo"
 
   data_json = <<EOT
 {
@@ -24,12 +24,36 @@ resource "vault_generic_secret" "cnn00-keys" {
 EOT
 }
 
-resource "vault_generic_secret" "gke00-keys" {
-  path = "kv/gke00/foo"
+resource "vault_generic_secret" "cnn-bar" {
+  path = "kv/cnn/bar"
+
+  data_json = <<EOT
+{
+  "bar":   "foo",
+  "pizza": "cheese"
+}
+EOT
+}
+
+resource "vault_generic_secret" "gke-foo" {
+  path = "kv/gke/foo"
 
   data_json = <<EOT
 {
   "foo":   "bar",
+  "pizza": "cheese"
+}
+EOT
+}
+
+
+
+resource "vault_generic_secret" "gke-bar" {
+  path = "kv/gke/bar"
+
+  data_json = <<EOT
+{
+  "bar":   "foo",
   "pizza": "cheese"
 }
 EOT
