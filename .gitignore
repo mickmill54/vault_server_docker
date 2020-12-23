@@ -1,10 +1,20 @@
 .DS*
-volumes/logs/*
-volumes/file/logical/*
-volumes/file/*
-volumes/file/auth/*
-volumes/file/logical/*
-volumes/file/sys/*
-volumes/file/sys/counters/*
-volumes/file/sys/counters/requests/*
-volumes/file/sys/counters/requests/2020*
+**volumes/logs/*
+**volumes/file/logical/*
+**volumes/file/*
+**volumes/file/auth/*
+**volumes/file/logical/*
+**volumes/file/sys/*
+**volumes/file/sys/counters/*
+**volumes/file/sys/counters/requests/*
+**volumes/file/sys/counters/requests/2020*
+
+# Local .terraform directories
+**terraform/.terraform/*
+
+# .tfstate files
+*terraform/.tfstate
+*terraform/.tfstate.*
+
+# Crash log files
+terraform/crash.log
