@@ -7,3 +7,4 @@ volumes/file/logical/*
 volumes/file/sys/*
 volumes/file/sys/counters/*
 volumes/file/sys/counters/requests/*
+volumes/file/sys/counters/requests/2020*
