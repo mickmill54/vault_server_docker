@@ -1,3 +1,9 @@
 .DS*
+volumes/logs/*
+volumes/file/logical/*
 volumes/file/*
-
+volumes/file/auth/*
+volumes/file/logical/*
+volumes/file/sys/*
+volumes/file/sys/counters/*
+volumes/file/sys/counters/requests/*
