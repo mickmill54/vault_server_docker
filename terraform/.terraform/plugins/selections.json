@@ -1,0 +1,10 @@
+{
+  "registry.terraform.io/hashicorp/vault": {
+    "hash": "h1:sOR1IWNJXrid+kKo0bVFDvCTWAkVt56ut6gfsdjyMWM=",
+    "version": "2.17.0"
+  },
+  "registry.terraform.io/terraform-providers/rundeck": {
+    "hash": "h1:eYE4fN3FR1jafAYrAUSsEgiFy1aABLkp42NqLNyC2eU=",
+    "version": "0.4.0"
+  }
+}
