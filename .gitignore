@@ -2,9 +2,6 @@
 **volumes/logs/**
 **volumes/file/**
 
-# Local .terraform directories
-terraform/.terraform/*
-
 # .tfstate files
 **terraform/*.tfstate
 
