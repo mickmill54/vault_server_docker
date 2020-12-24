@@ -46,8 +46,6 @@ resource "vault_generic_secret" "gke-foo" {
 EOT
 }
 
-
-
 resource "vault_generic_secret" "gke-bar" {
   path = "kv/gke/bar"
 

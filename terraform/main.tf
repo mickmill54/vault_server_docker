@@ -22,6 +22,7 @@ terraform {
     }
     rundeck = {
       source = "terraform-providers/rundeck"
+      version = "~> 0.4.0"
     }
   }
 }
