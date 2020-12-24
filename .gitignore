@@ -1,6 +1,6 @@
 .DS*
-**volumes/logs/**
-**volumes/file/**
+#**volumes/logs/**
+#**volumes/file/**
 
 # .tfstate files
 **terraform/*.tfstate
