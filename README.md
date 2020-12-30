@@ -1,7 +1,7 @@
 # my_vault_server_docker
 ### vault in docker for testing vault_migrator, vault_renamer, and vault_deleter
 
-*Note*: This project start becuase I wanted to have a local instance of vault to test a few vault utilities.  The second goal was to see if I could automate as much of the install as possible.
+*Note*: This project started becuase I wanted to have a local instance of vault to test a few vault utilities.  The second goal was to see if I could automate as much of the install as possible.
 
 This is all done in bash and terraform.  
 
