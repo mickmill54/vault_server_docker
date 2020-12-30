@@ -16,7 +16,7 @@ This is all done in bash and terraform.
 | terraform file | description |
 | -------------- | -----------------------------|
 | main.tf | the main terraform control file |
-| auth.tf | configure all auth/userpass and auth users |
+| auth.tf | configures auth/userpass and auth users |
 | policies.tf | configure the policies |
 | secrets | creates a few secrets for the tests |
 
