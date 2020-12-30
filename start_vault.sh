@@ -17,5 +17,6 @@ sleep 10
 
 # Run terraform 
 cd terraform
+terraform init
 terraform apply -auto-approve
 terraform apply -auto-approve

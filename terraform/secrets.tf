@@ -9,10 +9,16 @@ resource "vault_mount" "kv" {
   type = "kv-v2"
 }
 
+# Add delay to see if I can fix the issue of having to run terraform twice
+#resource "null_resource" "delay" {
+#  provisioner "local-exec" {
+#    command = "sleep 5"
+#  }
+#}
+
 #----------------------------------------------------------
 # Create key value pair
 #----------------------------------------------------------
-
 resource "vault_generic_secret" "cnn-foo" {
   path = "kv/cnn/foo"
 
