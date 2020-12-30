@@ -4,7 +4,7 @@ istener "tcp" {
  tls_disable = 1
 }
 storage "file" {
-  path = "volumes/file"
+  path = "$HOME/volumes/file"
 }
 disable_mlock = true
 api_addr = "http://localhost:8200"

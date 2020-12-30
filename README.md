@@ -1,11 +1,19 @@
-# my_vault_server
-### example vault docker getting started 
+# my_vault_server_docker
+### vault in docker for testing vault_migrator, vault_renamer, and vault_deleter
 
 *Note*: All the keys and tokens are examples and are no longer in use.
 
 #### Reference: 
 https://blog.ruanbekker.com/blog/2019/05/06/setup-hashicorp-vault-server-on-docker-and-cli-guide/
 
+#### Getting Hashi Vault running in Docker
+```
+# clone this repo
+git clone https://github.com/mickmill54/vault_server_docker.git
+cd vault_server_docker
+
+
+```
 
 ##### Get the token and keys
 ```
