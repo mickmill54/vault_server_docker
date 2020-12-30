@@ -4,6 +4,7 @@ vault_init.out
 # .tfstate files
 **terraform/*.tfstate
 **terraform/*.tfstate.backup
+terraform/terraform.tfstate.backup 
 
 # Crash log files
 **terraform/crash.log
