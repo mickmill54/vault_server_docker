@@ -6,6 +6,10 @@ docker-compose up -d
 cp ./config/vault.json $HOME/volumes/config
 sleep 10
 
+unset VAULT_TOKEN
+unset VAULT_ADDR
+export VAULT_ADDR=http://localhost:8200
+
 # Vault init, if needed
 ./vault_init.sh
 
