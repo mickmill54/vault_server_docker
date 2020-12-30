@@ -10,7 +10,7 @@ sleep 10
 ./vault_init.sh
 
 # Vault unseal
-./unseal.sh
+./vault_unseal.sh
 
 # Login with token
 ./vault_login.sh
