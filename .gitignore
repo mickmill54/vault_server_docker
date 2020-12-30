@@ -1,6 +1,5 @@
 .DS*
-#**volumes/logs/**
-#**volumes/file/**
+vault_init.out
 
 # .tfstate files
 **terraform/*.tfstate
