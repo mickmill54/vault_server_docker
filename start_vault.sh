@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Start vault using docker-compose option -d "detach"
 # mkdir -p $HOME/volumes/{config,file,logs}
 

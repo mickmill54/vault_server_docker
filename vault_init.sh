@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Create keys and root tokens
 # Test to see if init already ran
 INIT_STATUS=$(vault operator init -status)

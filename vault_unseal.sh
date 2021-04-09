@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Add keys
 for i in {0..2}
   do
